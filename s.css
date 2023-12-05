@@ -1,0 +1,36 @@
+@import url('http://getbootstrap.com/dist/css/bootstrap.css');
+.con img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.nav-item{
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+}
+.navbar{
+    background-color: lightblue;
+}
+.lay{
+        display: flex;
+        height: 580px;
+        top: 250px;
+        left: 150px;
+        right: 150px;
+        width: 1200px;
+        border-color: rgb(0, 0, 0);
+        position: absolute;
+        margin: auto;
+        border-radius: 25px;
+        box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+                    0 32px 64px -48px rgba(0,0,0,0.5);
+        background: transparent;
+        backdrop-filter: blur(7px);
+        border: 0px solid;
+}
+.lay{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
