@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@600&family=Poppins:wght@200;300&family=Roboto+Mono:wght@300&display=swap');
+
+
+div.parent{
+    width: 80%; /* for example */
+    margin: auto;
+}
+
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img{
+width: 100%; /* use this, or not */
+margin: auto;
+}
+    height: fit-content;
+    width: 1000px;
+    margin-left: 100px;
+}
+.child{
+    align-items: center;
+    display: flex;
+    height: 300px;
+    top: 250px;
+    left: 150px;
+    right: 150px;
+    width: 1300px;
+    margin-left: 1500px;
+
+}
+.carousel slide {
+    display: inline-block;
+    border: 1px solid red;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    margin-left: 1300px;
+}
+.fst{
+    background-color: aqua;
+    margin-left: 5px ;
+    margin-top: 0px;
+    margin-right: 5px ;
+    border: 0px solid;
+    border-radius: 15px;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+.h{
+    font-size: 39px;
+    font-weight: 400;
+    margin-left: 8px;
+}
+.hh{
+    font-size: 40px;
+    margin-left: 88px;
+    font-weight: bolder;
+}
+.ew{
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+    backdrop-filter: blur(15px);
+}
