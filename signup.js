@@ -1,6 +1,6 @@
 //password showhide 2 functions//
 function myFunction() {
-    var x = document.getElementById("password");
+    var x = document.getElementById("pass");
     if (x.type === "password") {
       x.type = "text";
     } else {
@@ -24,7 +24,7 @@ var password = document.getElementById('cpassword');
  //check function//     
 let name = document.getElementById("name");
 let email = document.getElementById("email");
-let password = document.getElementById("password");
+let passw = document.getElementById("pass");
 let btn1 = document.getElementById("btn1");
 
 const isName = /^[a-zA-Z\s]+$/
@@ -42,8 +42,10 @@ btn1.addEventListener('click', ()=>{
     } else if (!isEmail.test(email.value.trim())){
         alert("Email should be in proper format!");
     } 
-    else if (password.value.trim() == ''){
-        alert("Please enter a Password");
+    else if (pass.value.trim() == ''){
+      alert("Please enter a Password");
+    } else if (!isPass.test(password.value.trim())){
+      alert("Password must contain Capital,Small letter,special charactors!");
     }
     else {
         alert("success");
