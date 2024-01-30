@@ -56,6 +56,6 @@ btn1.addEventListener('click', ()=>{
     }
 
     else {
-        alert("Successfully signed up");
+        alert("Successfully Signed up");
     }
 })
