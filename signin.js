@@ -29,6 +29,6 @@ btn2.addEventListener('click', ()=>{
     }
     
     else {
-        alert("Successfully Signed in")
+        alert("Successfully Signed in");
     }
 })
